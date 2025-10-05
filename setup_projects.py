@@ -125,7 +125,7 @@ if __name__ == "__main__":
     try:
         # user_input
         user_input = inputimeout(
-            prompt="Select one within 60 seconds or I setup Jarvis project!\n1. NLP Setup\n2. Jarvis Setup\n3. OpenCV\n> ",
+            prompt="Select one within 60 seconds or I setup openCV project!\n1. NLP Setup\n2. Jarvis Setup\n3. OpenCV Setup\n> ",
             timeout=60,
         )
         start_setup(user_input)
